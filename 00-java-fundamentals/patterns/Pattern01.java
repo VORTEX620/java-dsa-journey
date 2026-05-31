@@ -11,8 +11,8 @@ P: print this pattern ****
 import java.util.*;
 public class Pattern01{
     static void pattern(int n){
-        for(int i=0;i<4;i++){
-            for(int j=0;j<4;j++){
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
                 System.out.print("*");
             }
             System.out.println();
