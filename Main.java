@@ -9,7 +9,7 @@ P: print this pattern ****
 (2) for the inner loop, focus on the columns & connect them somehow to the rows
 (3) print the pattern or print("*") */
 import java.util.*;
-public class Pattern01{
+public class Main{
     static void pattern(int n){
         for(int i=0;i<4;i++){
             for(int j=0;j<4;j++){

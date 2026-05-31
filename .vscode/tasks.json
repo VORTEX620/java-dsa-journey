@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile and Run Java",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-Command",
+        "javac Main.java; if ($?) { Get-Content input.txt | java Main | Out-File output.txt }"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
