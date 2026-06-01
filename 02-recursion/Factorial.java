@@ -1,8 +1,9 @@
+
 // P: print factorial of first n natural number
 
 import java.util.Scanner;
 
-public class Main{
+public class Factorial{
 
     static int fact(int n){
         if(n == 0){
